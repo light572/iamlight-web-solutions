@@ -22,5 +22,11 @@ h1{font-size:clamp(44px,6vw,76px);line-height:1.02;letter-spacing:-3px;max-width
 .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.steps>div{border-top:3px solid var(--blue);padding-top:20px}.steps b{color:var(--gold);font-size:24px}.steps h3{margin:8px 0}.steps p{color:var(--muted);font-size:14px}
 .cta{margin:0 7% 80px;padding:55px;border-radius:24px;background:var(--ink);color:#fff;display:flex;justify-content:space-between;gap:30px;align-items:center}.cta .eyebrow{color:var(--gold)}.cta h2{font-size:clamp(32px,4vw,50px);line-height:1.05}.cta p{color:#cbd5e1;max-width:650px;margin-top:12px}.contact-box{display:flex;flex-direction:column;gap:12px;min-width:240px}.whatsapp{background:#20b75a;color:#fff}.contact-box small{color:#94a3b8;font-size:10px}
 footer{padding:35px 7%;border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}footer p{font-size:12px;color:var(--muted)}
+
+.project-image{position:relative;overflow:hidden}
+.project-badge{position:absolute;top:16px;right:16px;padding:5px 9px;border-radius:20px;background:rgba(255,255,255,.9);color:#071a3a;font-size:9px;letter-spacing:1px;font-weight:900}
+.project-link{display:inline-block;margin-top:12px;color:var(--blue);font-size:13px;font-weight:800}
+.shop{background:linear-gradient(135deg,#315c3b,#d1a74c)}
+
 @media(max-width:900px){.hero{grid-template-columns:1fr;padding-top:55px}.cards{grid-template-columns:repeat(2,1fr)}.pricing,.portfolio{grid-template-columns:1fr}.steps{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:700px){.nav{padding:0 5%}nav{display:none;position:absolute;top:76px;left:0;right:0;background:#fff;padding:20px 5%;flex-direction:column;border-bottom:1px solid var(--line)}nav.open{display:flex}.menu-btn{display:block}.hero{padding:55px 5%;min-height:auto}.hero-card{margin-top:10px}.mock-site{height:280px;padding:28px}.mock-title{font-size:31px;margin-top:45px}.trust{grid-template-columns:1fr;gap:18px}.trust div{border-right:0;border-bottom:1px solid var(--line);padding-bottom:15px}.section{padding:70px 5%}.cards{grid-template-columns:1fr}.steps{grid-template-columns:1fr}.cta{margin:0 5% 60px;padding:35px 25px;flex-direction:column;align-items:flex-start}.contact-box{width:100%}h1{letter-spacing:-2px}}
