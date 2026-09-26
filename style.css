@@ -30,3 +30,9 @@ footer{padding:35px 7%;border-top:1px solid var(--line);display:flex;justify-con
 
 @media(max-width:900px){.hero{grid-template-columns:1fr;padding-top:55px}.cards{grid-template-columns:repeat(2,1fr)}.pricing,.portfolio{grid-template-columns:1fr}.steps{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:700px){.nav{padding:0 5%}nav{display:none;position:absolute;top:76px;left:0;right:0;background:#fff;padding:20px 5%;flex-direction:column;border-bottom:1px solid var(--line)}nav.open{display:flex}.menu-btn{display:block}.hero{padding:55px 5%;min-height:auto}.hero-card{margin-top:10px}.mock-site{height:280px;padding:28px}.mock-title{font-size:31px;margin-top:45px}.trust{grid-template-columns:1fr;gap:18px}.trust div{border-right:0;border-bottom:1px solid var(--line);padding-bottom:15px}.section{padding:70px 5%}.cards{grid-template-columns:1fr}.steps{grid-template-columns:1fr}.cta{margin:0 5% 60px;padding:35px 25px;flex-direction:column;align-items:flex-start}.contact-box{width:100%}h1{letter-spacing:-2px}}
+
+/* Final polish */
+.cta .secondary{color:var(--ink)}
+.project-link{transition:.2s ease}
+.project-link:hover{letter-spacing:.2px}
+.project-image{min-height:230px}
